@@ -1,3 +1,4 @@
+![](https://github.com/RoRdil31/Open-Source-SW/blob/main/images/shell_kernel.jpg?raw=true)
 # Arguments
 **[directory name]** <br>
 / root<br>
@@ -32,7 +33,7 @@ cp -r ../folder1 ./new_folder : 폴더 복사 (여러개는 -r 안씀)
 	file1 dir1 (file1을 dir1디렉토리 안으로 복사. 이때 파일 이름 동일)
 	-R dir1 dir2 (디렉토리 자체를 복사)
 ```
-![](https://www.notion.so/Open-Source-Software-2dcd0b3b8ce043288b3bbdb7fc3667c4?pvs=4#108a9f4fc47c80a29182ce8a3b184c31)
+![](https://github.com/RoRdil31/Open-Source-SW/blob/main/images/cp.png?raw=true)
 ## 2. 잘라내기 : mv
 ```sh
 mv README.md LICENSE.md (이름 바꾸기)
@@ -43,6 +44,7 @@ mv README.md LICENSE.md (이름 바꾸기)
 						(dir2가 존재하면, dir1이 dir2로 움직임.)
 
 ```
+![](https://github.com/RoRdil31/Open-Source-SW/blob/main/images/mv.png?raw=true)
 ## 3. 영구 삭제 : rm
 ```sh
 rm LICENSE.md
@@ -50,11 +52,12 @@ rm LICENSE.md
 	-r dir1 dir2 (directories를 지울 땐 반드시 -r 해줘야 함)
 
 ```
+![](https://github.com/RoRdil31/Open-Source-SW/blob/main/images/rm.png?raw=true)
 ## 4. Directory 생성 : mkdir
 ```sh
 mkdir asset
 ```
-
+![](https://github.com/RoRdil31/Open-Source-SW/blob/main/images/mkdir.png?raw=true)
 ## 5. Wildcards
 ```sh
 * (모든 파일)
