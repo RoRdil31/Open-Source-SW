@@ -32,6 +32,7 @@ cp -r ../folder1 ./new_folder : 폴더 복사 (여러개는 -r 안씀)
 	file1 dir1 (file1을 dir1디렉토리 안으로 복사. 이때 파일 이름 동일)
 	-R dir1 dir2 (디렉토리 자체를 복사)
 ```
+![](https://www.notion.so/Open-Source-Software-2dcd0b3b8ce043288b3bbdb7fc3667c4?pvs=4#108a9f4fc47c80a29182ce8a3b184c31)
 ## 2. 잘라내기 : mv
 ```sh
 mv README.md LICENSE.md (이름 바꾸기)
